@@ -121,17 +121,17 @@ textarea:focus-visible {
 }
 
 .app {
-  max-width: 560px;
+  max-width: 480px;
   margin: 0 auto;
   min-height: 100vh;
-  padding-bottom: 110px;
+  padding-bottom: 92px;
 }
 
 .header {
   position: sticky;
   top: 0;
   z-index: 20;
-  padding: 16px 20px 14px;
+  padding: 12px 18px;
   background: var(--surface-header);
   backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--border);
@@ -142,23 +142,23 @@ textarea:focus-visible {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 14px;
+  gap: 12px;
 }
 
 .logo {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
   min-width: 0;
   flex: 1;
 }
 
 .logo__img,
 .logo__mark {
-  width: 48px;
-  height: 48px;
+  width: 44px;
+  height: 44px;
   flex-shrink: 0;
-  border-radius: 16px;
+  border-radius: 12px;
   background: var(--logo-box-bg);
   border: 1px solid var(--border);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08), 0 8px 20px rgba(0, 0, 0, 0.08);
@@ -178,7 +178,7 @@ textarea:focus-visible {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.7rem;
+  font-size: 1.55rem;
 }
 
 .logo__text {
@@ -190,27 +190,27 @@ textarea:focus-visible {
 
 .logo__name {
   color: var(--logo-name-color);
-  font-size: 1.14rem;
+  font-size: 1.08rem;
   font-weight: 800;
   letter-spacing: -0.03em;
 }
 
 .logo__tag {
   color: var(--text-muted);
-  font-size: 0.76rem;
+  font-size: 0.72rem;
   font-weight: 600;
   letter-spacing: 0.02em;
 }
 
 .theme-toggle {
-  width: 46px;
-  height: 46px;
+  width: 44px;
+  height: 44px;
   padding: 0;
   flex-shrink: 0;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border-radius: 16px;
+  border-radius: 12px;
   border: 1px solid var(--border);
   background: var(--surface-chip);
   color: var(--accent-strong);
@@ -236,7 +236,7 @@ textarea:focus-visible {
 
 .page {
   display: none;
-  padding: 18px 20px 12px;
+  padding: 14px 18px 12px;
 }
 
 .page--active {
@@ -246,8 +246,8 @@ textarea:focus-visible {
 .hero-panel {
   position: relative;
   overflow: hidden;
-  padding: 22px 20px;
-  border-radius: 24px;
+  padding: 18px 16px;
+  border-radius: 18px;
   background: var(--surface-hero);
   border: 1px solid var(--border-strong);
   box-shadow: var(--shadow-md), inset 0 1px 0 rgba(255, 255, 255, 0.08);
@@ -256,10 +256,10 @@ textarea:focus-visible {
 .hero-panel::after {
   content: "";
   position: absolute;
-  top: -38px;
-  right: -26px;
-  width: 180px;
-  height: 180px;
+  top: -32px;
+  right: -22px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   background: var(--hero-glow);
   pointer-events: none;
@@ -270,12 +270,12 @@ textarea:focus-visible {
   z-index: 1;
   display: inline-flex;
   align-items: center;
-  padding: 7px 11px;
+  padding: 6px 10px;
   border-radius: 999px;
   background: rgba(202, 165, 106, 0.08);
   border: 1px solid rgba(202, 165, 106, 0.18);
   color: var(--accent-deep);
-  font-size: 0.74rem;
+  font-size: 0.68rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.12em;
@@ -284,10 +284,10 @@ textarea:focus-visible {
 .hero-panel__title {
   position: relative;
   z-index: 1;
-  margin: 16px 0 10px;
+  margin: 14px 0 8px;
   color: var(--text-strong);
-  font-size: 1.72rem;
-  line-height: 1.04;
+  font-size: 1.42rem;
+  line-height: 1.08;
   font-weight: 800;
   letter-spacing: -0.04em;
 }
@@ -296,16 +296,16 @@ textarea:focus-visible {
   position: relative;
   z-index: 1;
   margin: 0;
-  max-width: 34ch;
+  max-width: 31ch;
   color: var(--text-soft);
-  font-size: 0.95rem;
-  line-height: 1.6;
+  font-size: 0.86rem;
+  line-height: 1.5;
 }
 
 .section-title {
-  margin: 22px 0 14px;
+  margin: 18px 0 14px;
   color: var(--heading-color);
-  font-size: 1rem;
+  font-size: 0.96rem;
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -313,9 +313,9 @@ textarea:focus-visible {
 
 .categories-list {
   display: flex;
-  gap: 10px;
+  gap: 8px;
   overflow-x: auto;
-  padding-bottom: 14px;
+  padding-bottom: 12px;
   margin-bottom: 4px;
   scrollbar-width: none;
 }
@@ -326,12 +326,12 @@ textarea:focus-visible {
 
 .category-btn {
   white-space: nowrap;
-  padding: 9px 15px;
+  padding: 7px 13px;
   border-radius: 999px;
   border: 1px solid var(--border);
   background: var(--surface-chip);
   color: var(--text-muted);
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.04em;
   cursor: pointer;
@@ -348,7 +348,7 @@ textarea:focus-visible {
 .products {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 16px;
+  gap: 14px;
 }
 
 .product-card {
@@ -356,7 +356,7 @@ textarea:focus-visible {
   flex-direction: column;
   min-height: 100%;
   overflow: hidden;
-  border-radius: 22px;
+  border-radius: 16px;
   background: var(--surface-card);
   border: 1px solid var(--border);
   box-shadow: var(--shadow-sm), inset 0 1px 0 rgba(255, 255, 255, 0.06);
@@ -368,7 +368,7 @@ textarea:focus-visible {
 
 .product-card__img {
   position: relative;
-  height: 132px;
+  height: 112px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -392,7 +392,7 @@ textarea:focus-visible {
 }
 
 .product-card__emoji {
-  font-size: 3rem;
+  font-size: 2.75rem;
   line-height: 1;
   color: var(--accent-strong);
   text-shadow: 0 0 24px rgba(229, 201, 135, 0.12);
@@ -402,29 +402,28 @@ textarea:focus-visible {
   display: flex;
   flex: 1;
   flex-direction: column;
-  gap: 12px;
-  padding: 14px;
+  gap: 10px;
+  padding: 10px 12px 12px;
 }
 
 .product-card__title {
   margin: 0;
   color: var(--text-strong);
-  font-size: 0.88rem;
+  font-size: 0.8rem;
   font-weight: 700;
-  line-height: 1.42;
+  line-height: 1.3;
 }
 
 .product-card__stock {
   display: inline-flex;
   align-items: center;
   align-self: flex-start;
-  min-height: 26px;
-  padding: 5px 10px;
+  min-height: 24px;
+  padding: 4px 8px;
   border-radius: 999px;
-  font-size: 0.68rem;
+  font-size: 0.7rem;
   font-weight: 800;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  line-height: 1;
 }
 
 .product-card__stock--ok {
@@ -443,26 +442,26 @@ textarea:focus-visible {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
+  gap: 8px;
   margin-top: auto;
 }
 
 .product-card__price {
   color: var(--price-color);
-  font-size: 1.04rem;
+  font-size: 1rem;
   font-weight: 800;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.02em;
 }
 
 .product-card__row .btn-add {
-  min-width: 44px;
-  padding-inline: 14px;
+  min-width: 40px;
+  padding-inline: 12px;
 }
 
 .btn {
   border: 1px solid transparent;
   border-radius: var(--radius-sm);
-  padding: 11px 15px;
+  padding: 10px 14px;
   font-size: 0.88rem;
   font-weight: 800;
   letter-spacing: 0.01em;
@@ -495,8 +494,8 @@ textarea:focus-visible {
 }
 
 .btn--sm {
-  padding: 9px 13px;
-  font-size: 0.8rem;
+  padding: 8px 12px;
+  font-size: 0.82rem;
 }
 
 .cart-header {
@@ -519,7 +518,7 @@ textarea:focus-visible {
 .cart-list {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
 }
 
 .cart-row,
@@ -528,7 +527,7 @@ textarea:focus-visible {
 .profile-card {
   background: var(--surface-card);
   border: 1px solid var(--border);
-  border-radius: 18px;
+  border-radius: 14px;
   box-shadow: var(--shadow-sm), inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
 
@@ -536,8 +535,8 @@ textarea:focus-visible {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 14px;
-  padding: 15px;
+  gap: 12px;
+  padding: 14px;
 }
 
 .cart-row__main {
@@ -546,24 +545,24 @@ textarea:focus-visible {
 }
 
 .cart-row__title {
-  margin: 0 0 12px;
+  margin: 0 0 10px;
   color: var(--text-strong);
-  font-size: 0.94rem;
+  font-size: 0.92rem;
   font-weight: 700;
-  line-height: 1.4;
+  line-height: 1.3;
 }
 
 .cart-row__qty {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
 }
 
 .cart-qty-btn {
-  width: 38px;
-  height: 38px;
+  width: 36px;
+  height: 36px;
   padding: 0;
-  border-radius: 12px;
+  border-radius: 10px;
   border: 1px solid var(--border);
   background: var(--bg-elevated);
   color: var(--accent-strong);
@@ -578,11 +577,11 @@ textarea:focus-visible {
 }
 
 .cart-qty-input {
-  width: 54px;
-  padding: 9px 4px;
+  width: 52px;
+  padding: 8px 4px;
   text-align: center;
   border: 1px solid var(--border-strong);
-  border-radius: 12px;
+  border-radius: 10px;
   background: var(--bg-soft);
   color: var(--text);
   font-size: 0.96rem;
@@ -604,8 +603,8 @@ textarea:focus-visible {
 }
 
 .cart-summary {
-  margin: 8px 0 10px;
-  padding: 16px;
+  margin: 6px 0 8px;
+  padding: 14px;
 }
 
 .cart-summary__row {
@@ -619,8 +618,8 @@ textarea:focus-visible {
 }
 
 .cart-summary__row--pay {
-  margin-top: 10px;
-  padding-top: 12px;
+  margin-top: 8px;
+  padding-top: 10px;
   border-top: 1px solid var(--border);
   color: var(--text-strong);
 }
@@ -652,22 +651,22 @@ textarea:focus-visible {
 }
 
 .promo-block {
-  margin-bottom: 20px;
-  padding: 16px;
+  margin-bottom: 18px;
+  padding: 14px;
 }
 
 .promo-block__label,
 .field {
   color: var(--text-muted);
-  font-size: 0.74rem;
+  font-size: 0.72rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.06em;
 }
 
 .promo-block__label {
   display: block;
-  margin-bottom: 9px;
+  margin-bottom: 8px;
 }
 
 .promo-block__hint {
@@ -697,10 +696,10 @@ textarea:focus-visible {
 .promo-block__input {
   flex: 1;
   min-width: 0;
-  padding: 12px 14px;
+  padding: 10px 12px;
   text-transform: uppercase;
-  font-size: 0.98rem;
-  font-weight: 700;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .promo-block__msg {
@@ -730,38 +729,38 @@ textarea:focus-visible {
 }
 
 .cart-empty {
-  padding: 34px 18px;
+  padding: 28px 12px;
   color: var(--text-muted);
   text-align: center;
-  font-size: 0.92rem;
+  font-size: 0.9rem;
 }
 
 .checkout {
-  margin-top: 24px;
+  margin-top: 22px;
 }
 
 .checkout__title {
-  margin: 0 0 16px;
+  margin: 0 0 14px;
   color: var(--heading-color);
-  font-size: 1rem;
+  font-size: 1.02rem;
   font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  text-transform: none;
 }
 
 .field {
   display: flex;
   flex-direction: column;
-  gap: 7px;
+  gap: 6px;
   margin-bottom: 14px;
 }
 
 .field input,
 .field select,
 .field textarea {
-  padding: 13px 14px;
-  font-size: 0.96rem;
-  font-weight: 600;
+  padding: 12px 14px;
+  font-size: 1rem;
+  font-weight: 500;
   letter-spacing: 0;
   text-transform: none;
   resize: vertical;
@@ -769,8 +768,8 @@ textarea:focus-visible {
 
 .profile-card {
   padding: 18px;
-  font-size: 0.94rem;
-  line-height: 1.7;
+  font-size: 0.92rem;
+  line-height: 1.65;
   color: var(--text-soft);
 }
 
@@ -793,13 +792,13 @@ textarea:focus-visible {
   right: 0;
   bottom: 0;
   z-index: 25;
-  max-width: 560px;
+  max-width: 480px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 8px;
-  padding: 12px 10px calc(12px + env(safe-area-inset-bottom));
+  gap: 0;
+  padding: 10px 6px calc(10px + env(safe-area-inset-bottom));
   background: var(--surface-nav);
   backdrop-filter: blur(16px);
   border-top: 1px solid var(--border);
@@ -812,13 +811,13 @@ textarea:focus-visible {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6px;
-  padding: 10px 8px;
+  gap: 4px;
+  padding: 8px;
   border: 1px solid transparent;
-  border-radius: 16px;
+  border-radius: 12px;
   background: transparent;
   color: var(--text-muted);
-  font-size: 0.7rem;
+  font-size: 0.68rem;
   font-weight: 700;
   cursor: pointer;
 }
@@ -831,7 +830,7 @@ textarea:focus-visible {
 }
 
 .nav-btn__icon {
-  font-size: 1.35rem;
+  font-size: 1.4rem;
   line-height: 1;
 }
 
@@ -878,6 +877,6 @@ textarea:focus-visible {
   }
 
   .hero-panel__title {
-    font-size: 1.46rem;
+    font-size: 1.3rem;
   }
 }
